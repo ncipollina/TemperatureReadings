@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D1A9605AC7678A3B9090526F"
+               BuildableName = "TemperatureReadings.app"
+               BlueprintName = "TemperatureReadings"
+               ReferencedContainer = "container:TemperatureReadings.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D1A9605AC7678A3B9090526F"
+            BuildableName = "TemperatureReadings.app"
+            BlueprintName = "TemperatureReadings"
+            ReferencedContainer = "container:TemperatureReadings.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

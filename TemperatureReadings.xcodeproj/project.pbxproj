@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1A9608716F5D189D8F6EFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96BE6443F720B2BDA365C /* AppDelegate.m */; };
+		D1A960A27B9D136A7D215358 /* CTCReading.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A9650D08C23F9783D27D5E /* CTCReading.m */; };
+		D1A9619389F88202786A4E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A9669EF91894CB4D4B7136 /* Foundation.framework */; };
+		D1A96227C50406ABA1EE6561 /* CTCReadingsService.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96B44EABC58CD5614DCB6 /* CTCReadingsService.m */; };
+		D1A964903ECE0D93799188A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A96C1BBE11A607386DF534 /* UIKit.framework */; };
+		D1A964EF6709E10CF6BF3B68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A96EDB29336CB2C6B3D316 /* InfoPlist.strings */; };
+		D1A966A6F8CB55259F378300 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A96AA0593B9186A64D0336 /* Default@2x.png */; };
+		D1A96728CEAA0201FBC56BDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A966FC4A1DE849AFABFB17 /* CoreGraphics.framework */; };
+		D1A9679B0CF2A2649B2D3BE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A965A80E6B284B1B0C51FE /* Default-568h@2x.png */; };
+		D1A967B7C862139CAF633153 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A96D53134BB3341D8251DC /* MainStoryboard.storyboard */; };
+		D1A96B6C2AC792EDBAEA7A4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A967254FA9B42E09F672B3 /* Default.png */; };
+		D1A96D0824081175646A506A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96C751D51475A791BF1A1 /* main.m */; };
+		D1A96DABBB8302EC7EB875E8 /* CTCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A96EE95417F685E0326DF3 /* CTCDetailViewController.m */; };
+		D1A96DAC65A16EFB2E2CC3BE /* CTCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A964C2FB19EDC0F950DC04 /* CTCMasterViewController.m */; };
+		D1A96F13316BF72DBEA9A8F5 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A96C78309202255609F1A2 /* WindowsAzureMobileServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1A9616AF3E8B09707A7DBBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1A9623032725506D52E1062 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D1A96266344CBC2657A0C2B0 /* CTCReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCReading.h; sourceTree = "<group>"; };
+		D1A963D2C2150583F9CC434D /* TemperatureReadings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TemperatureReadings-Info.plist"; sourceTree = "<group>"; };
+		D1A964C2FB19EDC0F950DC04 /* CTCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCMasterViewController.m; sourceTree = "<group>"; };
+		D1A9650D08C23F9783D27D5E /* CTCReading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCReading.m; sourceTree = "<group>"; };
+		D1A965A80E6B284B1B0C51FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D1A965BBAB6F9447D9F2B859 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1A966959F4DDCD3B67229CE /* TemperatureReadings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemperatureReadings-Prefix.pch"; sourceTree = "<group>"; };
+		D1A9669EF91894CB4D4B7136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1A966EEAABBFA7FDBC5796F /* TemperatureReadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureReadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A966FC4A1DE849AFABFB17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1A967254FA9B42E09F672B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D1A9673FADA3E9F6C9F4D8A9 /* CTCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCMasterViewController.h; sourceTree = "<group>"; };
+		D1A96AA0593B9186A64D0336 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D1A96B44EABC58CD5614DCB6 /* CTCReadingsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCReadingsService.m; sourceTree = "<group>"; };
+		D1A96BDC65087046812CF149 /* CTCReadingsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCReadingsService.h; sourceTree = "<group>"; };
+		D1A96BE6443F720B2BDA365C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1A96C1BBE11A607386DF534 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1A96C751D51475A791BF1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1A96C78309202255609F1A2 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindowsAzureMobileServices.framework; path = /Users/ncipollina/Downloads/WindowsAzureMobileServices.framework; sourceTree = "<absolute>"; };
+		D1A96E8868F9AE080506FB1E /* CTCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCDetailViewController.h; sourceTree = "<group>"; };
+		D1A96EE95417F685E0326DF3 /* CTCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A96AFE75F87C0920C57312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A964903ECE0D93799188A9 /* UIKit.framework in Frameworks */,
+				D1A9619389F88202786A4E45 /* Foundation.framework in Frameworks */,
+				D1A96728CEAA0201FBC56BDF /* CoreGraphics.framework in Frameworks */,
+				D1A96F13316BF72DBEA9A8F5 /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1A9621C0B36738622A19B6E /* TemperatureReadings */ = {
+			isa = PBXGroup;
+			children = (
+				D1A96772E4E1646C0AE3EE45 /* Supporting Files */,
+				D1A9616AF3E8B09707A7DBBC /* AppDelegate.h */,
+				D1A96BE6443F720B2BDA365C /* AppDelegate.m */,
+				D1A96D53134BB3341D8251DC /* MainStoryboard.storyboard */,
+				D1A9673FADA3E9F6C9F4D8A9 /* CTCMasterViewController.h */,
+				D1A964C2FB19EDC0F950DC04 /* CTCMasterViewController.m */,
+				D1A96E8868F9AE080506FB1E /* CTCDetailViewController.h */,
+				D1A96EE95417F685E0326DF3 /* CTCDetailViewController.m */,
+				D1A96B44EABC58CD5614DCB6 /* CTCReadingsService.m */,
+				D1A96BDC65087046812CF149 /* CTCReadingsService.h */,
+				D1A9650D08C23F9783D27D5E /* CTCReading.m */,
+				D1A96266344CBC2657A0C2B0 /* CTCReading.h */,
+			);
+			path = TemperatureReadings;
+			sourceTree = "<group>";
+		};
+		D1A964889A23E96404D23282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A96C1BBE11A607386DF534 /* UIKit.framework */,
+				D1A9669EF91894CB4D4B7136 /* Foundation.framework */,
+				D1A966FC4A1DE849AFABFB17 /* CoreGraphics.framework */,
+				D1A96C78309202255609F1A2 /* WindowsAzureMobileServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A96772E4E1646C0AE3EE45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A963D2C2150583F9CC434D /* TemperatureReadings-Info.plist */,
+				D1A96EDB29336CB2C6B3D316 /* InfoPlist.strings */,
+				D1A96C751D51475A791BF1A1 /* main.m */,
+				D1A966959F4DDCD3B67229CE /* TemperatureReadings-Prefix.pch */,
+				D1A967254FA9B42E09F672B3 /* Default.png */,
+				D1A96AA0593B9186A64D0336 /* Default@2x.png */,
+				D1A965A80E6B284B1B0C51FE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1A96BBC982DBBB51E84A879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A966EEAABBFA7FDBC5796F /* TemperatureReadings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A96DF78C33B9F6EC2E7423 = {
+			isa = PBXGroup;
+			children = (
+				D1A96BBC982DBBB51E84A879 /* Products */,
+				D1A964889A23E96404D23282 /* Frameworks */,
+				D1A9621C0B36738622A19B6E /* TemperatureReadings */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A9605AC7678A3B9090526F /* TemperatureReadings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A96B1845921AA982C5EFA1 /* Build configuration list for PBXNativeTarget "TemperatureReadings" */;
+			buildPhases = (
+				D1A96B70EEE10968DCB8CA59 /* Sources */,
+				D1A96AFE75F87C0920C57312 /* Frameworks */,
+				D1A962A5D42D41DC02F795C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureReadings;
+			productName = TemperatureReadings;
+			productReference = D1A966EEAABBFA7FDBC5796F /* TemperatureReadings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A96E90954892CCDAB135A2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D1A96D1922EE5A50D4AA5348 /* Build configuration list for PBXProject "TemperatureReadings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1A96DF78C33B9F6EC2E7423;
+			productRefGroup = D1A96BBC982DBBB51E84A879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A9605AC7678A3B9090526F /* TemperatureReadings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A962A5D42D41DC02F795C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A964EF6709E10CF6BF3B68 /* InfoPlist.strings in Resources */,
+				D1A96B6C2AC792EDBAEA7A4F /* Default.png in Resources */,
+				D1A966A6F8CB55259F378300 /* Default@2x.png in Resources */,
+				D1A9679B0CF2A2649B2D3BE3 /* Default-568h@2x.png in Resources */,
+				D1A967B7C862139CAF633153 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A96B70EEE10968DCB8CA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A96D0824081175646A506A /* main.m in Sources */,
+				D1A9608716F5D189D8F6EFEE /* AppDelegate.m in Sources */,
+				D1A96DAC65A16EFB2E2CC3BE /* CTCMasterViewController.m in Sources */,
+				D1A96DABBB8302EC7EB875E8 /* CTCDetailViewController.m in Sources */,
+				D1A96227C50406ABA1EE6561 /* CTCReadingsService.m in Sources */,
+				D1A960A27B9D136A7D215358 /* CTCReading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1A96D53134BB3341D8251DC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A9623032725506D52E1062 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D1A96EDB29336CB2C6B3D316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A965BBAB6F9447D9F2B859 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1A9630F359B225FA3D555FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"${PROJECT_DIR}/../../Downloads\"/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureReadings/TemperatureReadings-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureReadings/TemperatureReadings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1A964D93E31ABFA5B3C3C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1A967D451921831DAC4AFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"${PROJECT_DIR}/../../Downloads\"/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureReadings/TemperatureReadings-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureReadings/TemperatureReadings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1A96F03CB4F7DC28569B8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A96B1845921AA982C5EFA1 /* Build configuration list for PBXNativeTarget "TemperatureReadings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A967D451921831DAC4AFFD /* Release */,
+				D1A9630F359B225FA3D555FD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1A96D1922EE5A50D4AA5348 /* Build configuration list for PBXProject "TemperatureReadings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A96F03CB4F7DC28569B8D8 /* Release */,
+				D1A964D93E31ABFA5B3C3C34 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1A96E90954892CCDAB135A2 /* Project object */;
+}
